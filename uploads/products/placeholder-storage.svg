@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#f6eee3"/>
+<rect x="100" y="100" width="1000" height="700" rx="44" fill="#fffdfa"/>
+<rect x="370" y="210" width="460" height="500" rx="26" fill="#b08158"/>
+<rect x="405" y="255" width="180" height="410" rx="18" fill="#d1b08d"/>
+<rect x="615" y="255" width="180" height="410" rx="18" fill="#d1b08d"/>
+<circle cx="570" cy="455" r="10" fill="#305c50"/>
+<circle cx="630" cy="455" r="10" fill="#305c50"/>
+<text x="600" y="185" font-family="Arial, sans-serif" font-size="54" text-anchor="middle" fill="#305c50">Sierra Storage Cabinet</text>
+<text x="600" y="740" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#947052">Organized Living</text>
+</svg>

@@ -1,0 +1,329 @@
+:root {
+    --fs-bg: #f7f3ee;
+    --fs-surface: #ffffff;
+    --fs-primary: #2f5d50;
+    --fs-primary-dark: #22453b;
+    --fs-accent: #c58c5d;
+    --fs-ink: #1f1f1f;
+    --fs-muted: #6f6b65;
+    --fs-border: #e8ded2;
+    --fs-shadow: 0 18px 45px rgba(34, 69, 59, 0.12);
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at top left, rgba(197, 140, 93, 0.18), transparent 35%), linear-gradient(180deg, #fbf8f4 0%, var(--fs-bg) 100%);
+    color: var(--fs-ink);
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand-mark {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.page-shell {
+    min-height: calc(100vh - 170px);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, rgba(47, 93, 80, 0.96), rgba(32, 53, 47, 0.92)), linear-gradient(135deg, rgba(197, 140, 93, 0.2), transparent);
+    border-radius: 28px;
+    padding: 4rem 3rem;
+    color: #fff;
+    box-shadow: var(--fs-shadow);
+    overflow: hidden;
+}
+
+.hero-section.hero-simple {
+    background: linear-gradient(120deg, rgba(47, 93, 80, 0.95), rgba(197, 140, 93, 0.78));
+}
+
+.hero-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.section-subtitle {
+    color: var(--fs-muted);
+    max-width: 620px;
+}
+
+.stat-card,
+.panel-card,
+.product-card,
+.form-card {
+    background: var(--fs-surface);
+    border: 1px solid rgba(232, 222, 210, 0.8);
+    border-radius: 24px;
+    box-shadow: 0 12px 28px rgba(44, 37, 29, 0.06);
+}
+
+.stat-card,
+.panel-card,
+.form-card {
+    height: 100%;
+}
+
+.product-card {
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(34, 69, 59, 0.16);
+}
+
+.product-card .product-image {
+    height: 240px;
+    object-fit: cover;
+    width: 100%;
+    background: #f2ede6;
+}
+
+.product-card .card-body {
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card h3,
+.product-card .h5 {
+    min-height: 3rem;
+}
+
+.product-card p.text-muted {
+    min-height: 4.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--fs-primary);
+}
+
+.category-pill {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(47, 93, 80, 0.12);
+    color: var(--fs-primary);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.site-footer {
+    padding: 2rem 0;
+    background: #1f2927;
+    color: #fff;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 1rem;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    min-width: 22px;
+}
+
+.badge-soft {
+    background: rgba(197, 140, 93, 0.15);
+    color: var(--fs-accent);
+    border-radius: 999px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.summary-card {
+    position: sticky;
+    top: 100px;
+}
+
+.panel-card .table-responsive,
+.form-card .table-responsive {
+    border-radius: inherit;
+}
+
+.table-card .table,
+.panel-card .table {
+    margin-bottom: 0;
+}
+
+.table > :not(caption) > * > * {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-color: var(--fs-border);
+    vertical-align: middle;
+}
+
+.table thead th {
+    border-bottom-width: 1px;
+    color: var(--fs-primary);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.table tbody tr:hover {
+    background: rgba(47, 93, 80, 0.035);
+}
+
+.gallery-thumb {
+    width: 100%;
+    border-radius: 18px;
+    border: 1px solid var(--fs-border);
+    background: #fff;
+}
+
+.detail-main-image {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 28px;
+    background: #f2ede6;
+}
+
+.feature-card {
+    padding: 1.4rem;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+}
+
+.btn-dark {
+    background: var(--fs-primary);
+    border-color: var(--fs-primary);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+    background: var(--fs-primary-dark);
+    border-color: var(--fs-primary-dark);
+}
+
+.btn,
+.form-control,
+.form-select {
+    border-radius: 14px;
+}
+
+.form-control,
+.form-select,
+.form-control:focus,
+.form-select:focus {
+    border-color: rgba(47, 93, 80, 0.24);
+    box-shadow: 0 0 0 0.2rem rgba(47, 93, 80, 0.12);
+}
+
+.btn-outline-dark {
+    border-color: var(--fs-primary);
+    color: var(--fs-primary);
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+    background: var(--fs-primary);
+    border-color: var(--fs-primary);
+}
+
+.auth-wrapper {
+    min-height: calc(100vh - 220px);
+    display: flex;
+    align-items: center;
+}
+
+.receipt-list li {
+    border-bottom: 1px dashed var(--fs-border);
+    padding: 0.9rem 0;
+}
+
+.receipt-list li:last-child {
+    border-bottom: 0;
+}
+
+.empty-state {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.admin-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.status-badge {
+    text-transform: capitalize;
+}
+
+.product-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 1rem;
+}
+
+.payment-extra {
+    display: none;
+}
+
+.payment-extra.is-visible {
+    display: block;
+}
+
+.nav-link.active {
+    color: var(--fs-primary) !important;
+    font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 2.5rem 1.5rem;
+        border-radius: 22px;
+    }
+
+    .detail-main-image {
+        height: 340px;
+    }
+
+    .footer-link {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+
+    .product-card h3,
+    .product-card .h5,
+    .product-card p.text-muted {
+        min-height: 0;
+    }
+}

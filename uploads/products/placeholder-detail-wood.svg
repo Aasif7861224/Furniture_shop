@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#f2e5d7"/>
+<rect x="140" y="120" width="920" height="660" rx="34" fill="#fffaf4"/>
+<rect x="240" y="220" width="720" height="460" rx="34" fill="#c6946a"/>
+<path d="M280 260c120 40 240 40 360 0s240-40 360 0" fill="none" stroke="#8f5d3f" stroke-width="18"/>
+<path d="M280 420c120 40 240 40 360 0s240-40 360 0" fill="none" stroke="#8f5d3f" stroke-width="18"/>
+<path d="M280 580c120 40 240 40 360 0s240-40 360 0" fill="none" stroke="#8f5d3f" stroke-width="18"/>
+<text x="600" y="760" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#7e5940">Wood Finish Detail</text>
+</svg>

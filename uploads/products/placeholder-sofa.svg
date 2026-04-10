@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#efe6d9"/>
+<rect x="110" y="120" width="980" height="660" rx="42" fill="#fefcf8"/>
+<rect x="220" y="315" width="760" height="220" rx="46" fill="#5f7f74"/>
+<rect x="240" y="260" width="180" height="160" rx="42" fill="#78988d"/>
+<rect x="780" y="260" width="180" height="160" rx="42" fill="#78988d"/>
+<rect x="300" y="545" width="100" height="100" rx="18" fill="#c58c5d"/>
+<rect x="800" y="545" width="100" height="100" rx="18" fill="#c58c5d"/>
+<text x="600" y="180" font-family="Arial, sans-serif" font-size="54" text-anchor="middle" fill="#24483d">Nordic Cloud Sofa</text>
+<text x="600" y="730" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#8a6a51">Living Room Collection</text>
+</svg>

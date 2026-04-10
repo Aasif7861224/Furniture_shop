@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#eef3ef"/>
+<rect x="140" y="120" width="920" height="660" rx="34" fill="#ffffff"/>
+<rect x="220" y="200" width="760" height="500" rx="36" fill="#8ba59c"/>
+<path d="M220 280h760M220 360h760M220 440h760M220 520h760M220 600h760" stroke="#dce7e2" stroke-width="10"/>
+<path d="M320 200v500M460 200v500M600 200v500M740 200v500M880 200v500" stroke="#dce7e2" stroke-width="10"/>
+<text x="600" y="760" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="#45655b">Fabric Texture Detail</text>
+</svg>
